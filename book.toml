@@ -3,3 +3,9 @@ authors = ["shinoda4"]
 language = "en"
 src = "src"
 title = "Shunde System"
+
+
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
+marker = "[[_TOC_]]"
